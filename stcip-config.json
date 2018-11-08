@@ -1,0 +1,19 @@
+{
+    "server_ip" : "127.0.0.1",
+    "server_port" : 162,
+    "client_port" : 161,
+    "client_read_community" : "public",
+    "client_write_community" : "private",
+    "elc_login_timeout_in_seconds" : 180,
+    "signal_group_state_interval_in_secs" : 1,
+    "periodic_status_interval_in_minutes" : 9,
+    "periodic_traffic_interval_in_minutes" : 15,
+    "phase_status_memory_register" : 11,
+    "phase_command_memory_register" : 1,
+    "use_global_time_from_central" : true,
+    "phase_command_timeout_secs" : 60,
+    "dark_plan" : 34,
+    "flash_plan" : 33,
+    "all_red_plan" : 35,
+    "allred_softwareflag" : 220
+}
