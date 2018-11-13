@@ -8,7 +8,7 @@ NewSheet695  : Work.002
 ;;;;;
 NeXt
 NewSheet695  : Work.003
-01;1-1;;;;;;;;;;;1;3-010;;;1;;;;;;;01;;;;;;2-01-00;;;;;
+01;1-1;;;;;;;;;;;1;3-001;;;1;;;;;;;01;;;;;;2-01-00;;;;;
 01;1-1;;;;;;;;;;;;3-001;;;1;;;;;;;;;;;;;;;;;;
 01;1-1;;;;;;;;;;;;3-001;;;1;;;;;;;;;;;;;;;;;;
 01;1-1;;;;;;;;;;;;3-001;;;1;;;;;;;;;;;;;;;;;;
@@ -23,7 +23,7 @@ NewSheet695  : Work.003
 01;1-1;;;;;;;;;;;;3-001;;;1;;;;;;;;;;;;;;;;;;
 04;1-1;;;;;;;;;;;1;3-001;;;1;;;;;;;02;;;;;;;;;;;
 05;1-1;;;;;;;;;;;;3-001;;;1;;;;;;;;;;;;;2-01-00;;;;;
-03;1-1;;;;;;;;;;;1;3-001;1;;1;;;;;;;03;;;;;;2-01-00;;;;;
+03;1-1;;;;;;;;;;;1;3-001;;;1;;;;;;;03;;;;;;2-01-00;;;;;
 NeXt
 NewSheet695  : Work.004
 2-2;01;;;;;;;01.0;03.0;03.0;;;;;;;;;;;1;;;;;;;;;;;;;;;
@@ -2984,12 +2984,6 @@ CB7=
 ChangeAllowed
 CUSTOM_NAMES *END
 HISTORY *START
-#2018-11-13 09:58:20;0;11;UPLOAD (SERGEY_WORKSTAT\Dell)
-Uploading: F016
-#2018-11-13 10:03:40;0;11;UPLOAD (SERGEY_WORKSTAT\Dell)
-Uploading: F016
-#2018-11-13 10:05:35;0;11;UPLOAD (SERGEY_WORKSTAT\Dell)
-Uploading: F016
 #2018-11-13 10:07:24;0;11;UPLOAD (SERGEY_WORKSTAT\Dell)
 Uploading: F016
 #2018-11-13 10:09:11;0;11;UPLOAD (SERGEY_WORKSTAT\Dell)
@@ -3027,10 +3021,18 @@ Uploading: F006
 Uploading: F006
 #2018-11-13 11:37:28;0;12;UPLOAD (SERGEY_WORKSTAT\Dell)
 Uploading: F006
+#2018-11-13 12:31:47;0;12;32132 (SERGEY_WORKSTAT\Dell)
+1321313
+#2018-11-13 12:37:17;0;13;UPLOAD (SERGEY_WORKSTAT\Dell)
+Backplane ID: 13085
+Uploading: F003
+#2018-11-13 12:48:44;0;13;UPLOAD (SERGEY_WORKSTAT\Dell)
+Backplane ID: 13085
+Uploading all
 HISTORY *END
 CUSTOM_PARAMS *START
 #MConfigVersion=
-12.0
+13.0
 #MControllerType=
 
 #MDimming=
