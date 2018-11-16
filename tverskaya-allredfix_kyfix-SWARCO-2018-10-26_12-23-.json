@@ -1,0 +1,159 @@
+{
+"smart_mode": [
+	"INTERSECTION"
+],
+"smart_intersection": {
+	"traffic": {
+		"evaluation_step": 3,
+		"minimum_plan_cycle_length": 40,
+		"maximum_plan_cycle_length": 120,
+		"time_lost_in_cycle": 0,
+		"cycle_change_limit": 0.25,
+		"green_change_limit": 3
+	},
+	"general": {
+		"adaptive_plans": [  ],
+		"startup_cycles": 5,
+		"heartbeat_flag_index": 10,
+		"consume_green_time_flag_index": 1,
+		"critical_flow_to_capacity_flag_start": 11,
+		"critical_saturation_flag_start": 21,
+		"detectors_failure_flag": 31,
+		"smart_corridor_mode": 0,
+		"stage_cycle_reset": 1
+	},
+	"corridor": {
+		"intersection_cycle_memory_register": 1,
+		"intersection_count": 1,
+		"intersection_index": 0,
+		"queue_1_length_memory_register_start": 0,
+		"queue_2_length_memory_register_start": 0
+	},
+	"measuring_points": [
+	],
+	"stages": [
+	],
+	"groups": [
+	]
+},
+"smart_corridor": {
+	"master_plans": [  ],
+	"priority_timeout": 0,
+	"priority_off_plan_number": 0,
+	"adaptive_conditions": {
+		"rule": "",
+		"flag": 0
+	},
+	"traditional_conditions": {
+		"rule": "",
+		"flag": 0
+	},
+	"priority_conditions": [
+		{
+			"rule": "",
+			"flag": 0,
+			"plan": 0
+		},
+		{
+			"rule": "",
+			"flag": 0,
+			"plan": 0
+		},
+		{
+			"rule": "",
+			"flag": 0,
+			"plan": 0
+		}
+	],
+	"situation_conditions": [
+		{
+			"rule": "",
+			"flag": 0,
+			"plans": ""
+		},
+		{
+			"rule": "",
+			"flag": 0,
+			"plans": ""
+		},
+		{
+			"rule": "",
+			"flag": 0,
+			"plans": ""
+		},
+		{
+			"rule": "",
+			"flag": 0,
+			"plans": ""
+		},
+		{
+			"rule": "",
+			"flag": 0,
+			"plans": ""
+		},
+		{
+			"rule": "",
+			"flag": 0,
+			"plans": ""
+		},
+		{
+			"rule": "",
+			"flag": 0,
+			"plans": ""
+		},
+		{
+			"rule": "",
+			"flag": 0,
+			"plans": ""
+		},
+		{
+			"rule": "",
+			"flag": 0,
+			"plans": ""
+		},
+		{
+			"rule": "",
+			"flag": 0,
+			"plans": ""
+		},
+		{
+			"rule": "",
+			"flag": 0,
+			"plans": ""
+		},
+		{
+			"rule": "",
+			"flag": 0,
+			"plans": ""
+		},
+		{
+			"rule": "",
+			"flag": 0,
+			"plans": ""
+		}
+	],
+	"slave_measurement_points": [
+	],
+	"plans_control_rules": [
+	]
+},
+"intersection": {
+	"intersection_index": 1,
+	"g1_index": 1,
+	"g2_index": 1,
+	"driving_side": "right",
+	"legs": [
+	]
+},
+"log": {
+	"enabled": true,
+	"log_to_stdout": true,
+	"log_status": true,
+	"directory": "/tmp/smart_green",
+	"name": "smart_green",
+	"max_entries_per_file": 10000,
+	"max_files_before_zipping": 3,
+	"max_zip_files": 100,
+	"log_level": 1
+}
+}
